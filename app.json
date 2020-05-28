@@ -1,13 +1,10 @@
 {
   "expo": {
-    "name": "Be The Hero",
-    "slug": "bethehero",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
+    "name": "Senai IBGE",
+    "slug": "senaiibge",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +12,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#E02041"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,6 +22,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+
+    "android": {
+      "package": "com.thecoders.senaiibge"
     }
   }
 }
